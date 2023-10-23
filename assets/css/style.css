@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-header {
+header { /* this is the CSS for the header, as I changed the div into an header and removed the class I modified it her as well */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -20,11 +20,11 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+header h1 .seo { /* this styles the syllable seo in the company logo on top of the page in a different colour, to put the emphasis on the word seo */
     color: #d9dcd6;
 }
 
-header nav {
+header nav {  /* This is responsible for the style of the nav part where we find the links to the sections of the main article */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -46,11 +46,11 @@ a {
     text-decoration: none;
 }
 
-p {
+p {   /* this is the size of the text in the paragraphs of the article and aside contents */
     font-size: 16px;
 }
 
-.hero {
+.hero { /* This class is shows the big background image between the header and the main article and aside  */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -58,7 +58,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* The following classes float-left and float-right are relative to the alignment of the content section's images, showing them on the right or left of the text  */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,13 +69,13 @@ p {
     margin-left: 25px;
 }
 
-.content {
+.content { /* this class defines the style and width of the main article showing the three content sections accessible with the links in the header, the width takes the 75% of the screen  */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+.benefits {  /* This styles the colum on the right of the main content article that occupies the 20% of the screen */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,6 +86,7 @@ p {
     background-color: #2589bd;
 }
 
+/* the following benefit- classes are rispettively responsible for the text color and text and icon images alignment of the benefits column on the right of the main content article */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -133,7 +134,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* The following three classes style the three content sections of the main article, all accessible through the relative links in the header */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -188,7 +189,7 @@ p {
     font-size: 36px;
 }
 
-footer {
+footer { /* this styles the footer, Like I did with the header, I replaced the div and the .footer class with a footer tag */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
