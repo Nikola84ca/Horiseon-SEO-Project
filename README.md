@@ -1,10 +1,34 @@
 # Horiseon Website SEO And Accessibility Optimization
 
-## About Horiseon
+## About Horiseon 
+Horiseon is a marketing agency that offers Search Engine Optimization, Online Reputation Management, and Social Media Marketing solutions to businesses. Their website, updated to 2019, shows several issues that we will analyze in detail in the following section. 
 
-Horiseon is a marketing agency that offers Search Engine Optimization, Online Reputation Management, and Social Media Marketing solutions to businesses. Their website, updated to 2019, shows several issues that we will analyze in detail in the following section. You can visit the Horiseon website by clicking [HERE](https://nikola84ca.github.io/Horiseon-SEO-Project/).
+## Usage
 
-## Website description
+You can visit the Horiseon website by clicking [HERE](https://nikola84ca.github.io/Horiseon-SEO-Project/). There you can navigate though the website using the top navication links that will redirect you to the relative portion of the website.
+
+## Installation
+First, make sure that Git and Git Bash are installed on your system. To download this project on your machine click [HERE](https://github.com/Nikola84ca/Horiseon-SEO-Project) to go to the repository on GitHub. Click on the green CODE botton, and copy the link of the repository. In your machine, open gitBash and create a new folder where you will clone the project using the command below
+
+```bash
+Git mkdir your-project-folder
+```
+navigate inside the new folder, and clone the project files with the following comands
+
+```bash
+cd your-project-folder
+Git clone url-copied-on-repository
+git pull
+```
+Open your editor with the command
+
+```bash
+code .
+```
+
+alternatively download the zip file in GitHub after pressing the Code button, unzip it and copy it in your project folder. Navigate to the folder using the cd command on gitbash and lounch your editor as shown above with code .
+
+## Website Description 
 
 The website is a single page that consists of these elements, listed from top to bottom.
 
@@ -19,7 +43,7 @@ Here is an example of the functionality implemented in the header links; when cl
 ![Gif animation of the header links, when clicked they will redirect the user to the relative section of the main article](/assets/readme-assets/Horiseon-Website-links-gif.gif).
 
 
-## What is this project about?
+## What is This Project About?
 
 This project is meant to improve SEO and Accessibility of Horiseon Website, in order to make the company website rank better on search engines and offer a more inclusive experience for all users, especially those with disabilities who require assistive technologies such as video captions, screen readers, and braille keyboards. This is a fundamental improvement that will allow not only a better SEO but also will avoid litigation that can occur when these cannot access their website due to accessibility issues. As a marketing agency, it is fundamental that their website reflects the services they provide, in order to make their website not only rank high on search engines but also make the website accessible to all users. Accessibility, together with a semantic HTML structure are some of the pillars of SEO, and in this project, we are going to improve those elements to make sure Horiseon's website complies with modern standards.
 
@@ -98,16 +122,22 @@ This project is meant to improve SEO and Accessibility of Horiseon Website, in o
                 <h2>Search Engine Optimization</h2>
 ```
 
+* I made sure to comment properly every part of the HTML and CSS code.
 
 
+## Credits
 
-## Upcoming Improvements
+I would like to thank all the teachers and TA of the EdX bootcamp for all the content provided. I would like to credit [w3 schools](https://www.w3schools.com/html/html5_semantic_elements.asp) for the useful content about HTML semantic elements.
+
+## Project Status and Upcoming Improvements
 
 Although the website is optimized for desktop view, it is still not responsive for tablet and mobile usage. The next steps to offer a more accessible and performant user experience is to work on the CSS of the website in order to make the website responsive and easy to navigate on all other devices as well. Other important additions could be implemented with detailed JavaScript code to make the website more functional and interactive for users.
 
 ## Collaborations and Contributions
 
 I welcome all the brilliant coders out there to join me in this project. Join effort can result in a fundamental learning experience for a beginner coder like me, so feel free to reach out with tips and advice. If you want to contribute to this project, pull requests are welcome, but if you want to make major changes, please open an issue first so that we can discuss what you would like to change. You can contact me on my GitHub profile [HERE](https://github.com/Nikola84ca) and visit this project repository, Horiseon-SEO-Project, by clicking [HERE](https://github.com/Nikola84ca/Horiseon-SEO-Project).
+
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
 ## License
 
